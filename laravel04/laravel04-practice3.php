@@ -1,11 +1,8 @@
 <?php
 
 function array_multiplication($arr) {
-    $count = count($arr);
-    $result = 0;
-    for($i = 0; $i <= $count-1){
-    $result = array[0] * array 
-    }
+    $result = array_product($arr);
     return $result;
 }
-echo array_multiplication(array(1,3,5,7,9))
+
+echo array_multiplication(array(1,3,5,7,9));
